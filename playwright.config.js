@@ -49,14 +49,14 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
-    {
-      name: 'brave',
-      use:{
-        browserName: 'chromium',
-        headless: false,
-        executablePath: 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe',
-      }
-    }
+    // {
+    //   name: 'brave',
+    //   use:{
+    //     browserName: 'chromium',
+    //     headless: false,
+    //     executablePath: 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe',
+    //   }
+    // }
 
     /* Test against mobile viewports. */
     // {
