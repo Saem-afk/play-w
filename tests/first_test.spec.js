@@ -26,7 +26,7 @@ test('login and select a product', async({page}) => {
     await page.locator('[data-test="finish"]').click()
 
 
-    await page.pause()
+    //await page.pause()
 
 
 })
